@@ -1,0 +1,119 @@
+
+.ant-select-selector {
+    background-color: transparent !important;
+    border-radius: 4px !important;
+    border: 1px solid var(--border) !important;
+    color: var(--text-primary) !important;
+}
+
+.ant-select-selector:hover {
+    border-color: var(--primary) !important;
+}
+
+.ant-select-focused .ant-select-selector {
+    border-color: var(--primary) !important;
+}
+
+.ant-select-selection-placeholder {
+    color: var(--text-tertiary) !important;
+    opacity: 0.8;
+}
+
+.ant-select-item {
+    background-color: transparent !important;
+    color: var(--text-primary) !important;
+}
+
+.ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+    background-color: var(--hover) !important;
+    color: var(--text-primary) !important;
+}
+
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+    background-color: var(--primary) !important;
+    color: white !important;
+}
+
+.ant-select-item-option-disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    color: var(--text-tertiary) !important;
+}
+
+.ant-select-selection-search-input {
+    background: transparent !important;
+    color: var(--text-primary) !important;
+}
+
+/* Multiple Select Items */
+.ant-select-multiple .ant-select-selection-overflow .ant-select-selection-item {
+    border: 1px solid var(--border);
+    background: var(--background-secondary);
+    color: var(--text-primary);
+    border-radius: 4px;
+    margin-right: 6px;
+    max-width: 200px;
+}
+
+.ant-select-multiple .ant-select-selection-item-remove {
+    color: var(--text-tertiary) !important;
+}
+
+.ant-select-multiple .ant-select-selection-item-remove:hover {
+    color: var(--text-secondary) !important;
+}
+
+.ant-select-dropdown {
+    background-color: var(--background-tertiary) !important;
+    border: 1px solid var(--border) !important;
+    border-radius: 8px !important;
+    box-shadow: var(--shadow-sm) !important;
+}
+
+.ant-select-dropdown .ant-select-item-option-selected:not(.ant-select-item-option-disabled) .ant-select-item-option-state {
+    color: white;
+}
+
+.ant-select .ant-select-clear {
+    color: var(--text-tertiary);
+    background: var(--background-secondary);
+}
+
+.ant-select .ant-select-clear:hover {
+    color: var(--error);
+}
+
+.ant-select-arrow {
+    color: var(--text-tertiary) !important;
+}
+
+.ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector {
+    border: 1px solid var(--border);
+    background: var(--background-tertiary);
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-search-input {
+    border: none !important;
+    outline: none !important;
+}
+
+.ant-select-multiple .ant-select-selection-search {
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.ant-select-multiple .ant-select-selection-search-input {
+    border: none !important;
+    outline: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+
+.ant-select-disabled .ant-select-selector {
+    background-color: var(--background-secondary) !important;
+    color: var(--text-tertiary) !important;
+    border-color: var(--border) !important;
+    opacity: 0.6;
+}

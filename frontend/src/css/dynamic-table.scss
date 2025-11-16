@@ -1,0 +1,20 @@
+.p-datatable {
+    background-color: var(--color-main) !important;
+}
+.p-datatable .p-column-header-content {
+    justify-content: space-between !important;
+
+    svg {
+        height: 11px;
+    }
+}
+.p-datatable.p-datatable-sm .p-datatable-tbody > tr > td{
+    color: #252525 !important;
+}
+.p-inputgroup-addon:first-child, .p-inputgroup button:first-child, .p-inputgroup input:first-child, .p-inputgroup > .p-inputwrapper:first-child, .p-inputgroup > .p-inputwrapper:first-child > .p-inputtext{
+    font-size: 13px !important;
+}
+.p-datatable .p-datatable-header{
+    background-color: var(--main) !important;
+    color:var(--color-white) !important;
+}
