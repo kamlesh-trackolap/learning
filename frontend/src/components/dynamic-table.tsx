@@ -1,19 +1,13 @@
 
-import { DataTable } from 'primereact/datatable';
-import { Column } from 'primereact/column';
-import { InputText } from 'primereact/inputtext';
-import { Button } from 'primereact/button';
 import { isNotEmptyArray } from './common/utils/main-utils';
 import { FaPeopleArrows } from 'react-icons/fa6';
 import * as xlsx from "xlsx";
 import { saveAs } from "file-saver";
 import { MdOutlineFileDownload, MdRefresh } from 'react-icons/md';
-import { Sidebar } from 'primereact/sidebar';
 import { PiTextColumnsDuotone } from 'react-icons/pi';
 import { useState } from 'react';
 import { RiUploadCloud2Line } from 'react-icons/ri';
 import { IoMdAdd } from 'react-icons/io';
-import { Calendar } from 'primereact/calendar';
 import "../css/dynamic-table.scss"
 
 interface ColumsType {
