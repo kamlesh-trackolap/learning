@@ -994,3 +994,147 @@ Import trace:
     ./Desktop/kamlesh/app2.0/led/frontend/src/app/layout.tsx [Server Component]
 
 https://nextjs.org/docs/messages/module-not-found
+[00:07:41.420] Browser ERROR   ./Desktop/kamlesh/app2.0/led/frontend/src/app/globals.css:795:9
+Module not found: Can't resolve './fonts/segoe/SegoePro-Bold.woff'
+  793 |   font-weight: 700;
+  794 |   src: url('./fonts/segoe/SegoePro-Bold.woff') format('woff');
+> 795 | }
+      |  ^
+  796 | @layer base {
+  797 |   :root {
+  798 |     --background: #F9F9F9;
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/kamlesh/app2.0/led/frontend/src/app/globals.css [Client Component Browser]
+    ./Desktop/kamlesh/app2.0/led/frontend/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:41.420] Browser ERROR   ./Desktop/kamlesh/app2.0/led/frontend/src/app/globals.css:785:9
+Module not found: Can't resolve './fonts/segoe/SegoePro-Regular.woff'
+  783 |   font-weight: 400;
+  784 |   src: url('./fonts/segoe/SegoePro-Regular.woff') format('woff');
+> 785 | }
+      |  ^
+  786 | @font-face {
+  787 |   font-family: 'Segoe Pro';
+  788 |   font-weight: 600;
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/kamlesh/app2.0/led/frontend/src/app/globals.css [Client Component Browser]
+    ./Desktop/kamlesh/app2.0/led/frontend/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:41.420] Browser ERROR   ./Desktop/kamlesh/app2.0/led/frontend/src/app/globals.css:790:9
+Module not found: Can't resolve './fonts/segoe/SegoePro-Semibold.woff'
+  788 |   font-weight: 600;
+  789 |   src: url('./fonts/segoe/SegoePro-Semibold.woff') format('woff');
+> 790 | }
+      |  ^
+  791 | @font-face {
+  792 |   font-family: 'Segoe Pro';
+  793 |   font-weight: 700;
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/kamlesh/app2.0/led/frontend/src/app/globals.css [Client Component Browser]
+    ./Desktop/kamlesh/app2.0/led/frontend/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:42.425] Browser ERROR   ./Desktop/kamlesh/app2.0/led/frontend/src/app/globals.css:795:9
+Module not found: Can't resolve './fonts/segoe/SegoePro-Bold.woff'
+  793 |   font-weight: 700;
+  794 |   src: url('./fonts/segoe/SegoePro-Bold.woff') format('woff');
+> 795 | }
+      |  ^
+  796 | @layer base {
+  797 |   :root {
+  798 |     --background: #F9F9F9;
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/kamlesh/app2.0/led/frontend/src/app/globals.css [Client Component Browser]
+    ./Desktop/kamlesh/app2.0/led/frontend/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:42.425] Browser ERROR   ./Desktop/kamlesh/app2.0/led/frontend/src/app/globals.css:785:9
+Module not found: Can't resolve './fonts/segoe/SegoePro-Regular.woff'
+  783 |   font-weight: 400;
+  784 |   src: url('./fonts/segoe/SegoePro-Regular.woff') format('woff');
+> 785 | }
+      |  ^
+  786 | @font-face {
+  787 |   font-family: 'Segoe Pro';
+  788 |   font-weight: 600;
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/kamlesh/app2.0/led/frontend/src/app/globals.css [Client Component Browser]
+    ./Desktop/kamlesh/app2.0/led/frontend/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:42.425] Browser ERROR   ./Desktop/kamlesh/app2.0/led/frontend/src/app/globals.css:790:9
+Module not found: Can't resolve './fonts/segoe/SegoePro-Semibold.woff'
+  788 |   font-weight: 600;
+  789 |   src: url('./fonts/segoe/SegoePro-Semibold.woff') format('woff');
+> 790 | }
+      |  ^
+  791 | @font-face {
+  792 |   font-family: 'Segoe Pro';
+  793 |   font-weight: 700;
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/kamlesh/app2.0/led/frontend/src/app/globals.css [Client Component Browser]
+    ./Desktop/kamlesh/app2.0/led/frontend/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:08:00.425] Browser ERROR   ./Desktop/kamlesh/app2.0/led/frontend/src/app/globals.css:795:9
+Module not found: Can't resolve './fonts/segoe/SegoePro-Bold.woff'
+  793 |   font-weight: 700;
+  794 |   src: url('./fonts/segoe/SegoePro-Bold.woff') format('woff');
+> 795 | }
+      |  ^
+  796 | @layer base {
+  797 |   :root {
+  798 |     --background: #F9F9F9;
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/kamlesh/app2.0/led/frontend/src/app/globals.css [Client Component Browser]
+    ./Desktop/kamlesh/app2.0/led/frontend/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:08:00.425] Browser ERROR   ./Desktop/kamlesh/app2.0/led/frontend/src/app/globals.css:785:9
+Module not found: Can't resolve './fonts/segoe/SegoePro-Regular.woff'
+  783 |   font-weight: 400;
+  784 |   src: url('./fonts/segoe/SegoePro-Regular.woff') format('woff');
+> 785 | }
+      |  ^
+  786 | @font-face {
+  787 |   font-family: 'Segoe Pro';
+  788 |   font-weight: 600;
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/kamlesh/app2.0/led/frontend/src/app/globals.css [Client Component Browser]
+    ./Desktop/kamlesh/app2.0/led/frontend/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:08:00.425] Browser ERROR   ./Desktop/kamlesh/app2.0/led/frontend/src/app/globals.css:790:9
+Module not found: Can't resolve './fonts/segoe/SegoePro-Semibold.woff'
+  788 |   font-weight: 600;
+  789 |   src: url('./fonts/segoe/SegoePro-Semibold.woff') format('woff');
+> 790 | }
+      |  ^
+  791 | @font-face {
+  792 |   font-family: 'Segoe Pro';
+  793 |   font-weight: 700;
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/kamlesh/app2.0/led/frontend/src/app/globals.css [Client Component Browser]
+    ./Desktop/kamlesh/app2.0/led/frontend/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
