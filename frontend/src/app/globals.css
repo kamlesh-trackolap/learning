@@ -24,15 +24,27 @@
 
 
 @theme inline {
-  --color-main: var(--main);
-  --color-secondary: var(--secondary);
-  --color-white: var(--white);
-  --color-second-white: var(--second-white);
-  --color-third-white: var(--third-white);
-  --color-base: var(--base);
-  --color-second-base: var(--second-base);
-  --color-third-base: var(--third-base);
+  --color-main: var(--background);
+  --color-secondary: var(--background-secondary);
+  --color-tertiary: var(--background-tertiary);
+
+  --color-base: var(--primary);
+  --color-base-secondary: var(--primary-hover);
+  --color-base-tertiary: var(--accent);
+
+  --color-button-hover: var(--primary-hover);
+
+
+  
+  --color-fg: var(--text-primary);
+  --color-fg-secondary: var(--text-secondary);
+  --color-fg-tertiary: var(--text-tertiary);
+  --color-link: var(--primary-hover);
+  --color-border: var(--border);
+
+
   --font-segoe: "Segoe Pro", sans-serif;
+
 }
 
 @layer base {
