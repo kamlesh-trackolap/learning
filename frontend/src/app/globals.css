@@ -6,19 +6,19 @@
 @font-face {
   font-family: 'Segoe Pro';
   font-weight: 400;
-  src: url('./fonts/segoe/SegoePro-Regular.woff') format('woff');
+  src: url('../fonts/segoe/SegoePro-Regular.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Segoe Pro';
   font-weight: 600;
-  src: url('./fonts/segoe/SegoePro-Semibold.woff') format('woff');
+  src: url('../fonts/segoe/SegoePro-Semibold.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Segoe Pro';
   font-weight: 700;
-  src: url('./fonts/segoe/SegoePro-Bold.woff') format('woff');
+  src: url('../fonts/segoe/SegoePro-Bold.woff') format('woff');
 }
 
 
