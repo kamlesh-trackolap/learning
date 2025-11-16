@@ -1,8 +1,10 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# ----------------------------------------
+# Core Ignore Rules (GitHub Recommended)
+# ----------------------------------------
 
-# dependencies
-node_modules
-/.pnp
+# Dependencies
+node_modules/
+.pnp
 .pnp.*
 .yarn/*
 !.yarn/patches
@@ -10,35 +12,67 @@ node_modules
 !.yarn/releases
 !.yarn/versions
 
-# testing
-/coverage
+# Testing
+coverage/
 
-# next.js
-.next/
-*/.next/
-out/
-dist/
-
-
-# production
-dist/
-
-# misc
-.DS_Store
-*.pem
-
-# debug
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
+pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
+# Environment files
 .env*
+!.env.example
 
-# vercel
-.vercel
+# OS / Misc
+.DS_Store
+Thumbs.db
+*.pem
 
-# typescript
+# TypeScript
 *.tsbuildinfo
 next-env.d.ts
+
+
+# ----------------------------------------
+# Next.js Build Output
+# ----------------------------------------
+
+# Ignore Next.js build folders anywhere in repo
+.next/
+*/.next/
+
+# Next.js Export Output
+out/
+
+# Dist build output
+dist/
+*/dist/
+
+
+# ----------------------------------------
+# Framework Hosting
+# ----------------------------------------
+
+# Vercel
+.vercel/
+
+# ----------------------------------------
+# Editor / Tooling
+# ----------------------------------------
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# IntelliJ / WebStorm
+.idea/
+
+# Temporary files
+*.tmp
+*.cache
+.cache/
