@@ -1,5 +1,12 @@
 import { AuthService } from "../../services/auth/auth.service.js";
+import { catchAsync } from "../../utils/catchAsync.js";
+import userModal from "../../models/user.model.js";
 
+export const login = catchAsync(async (req, res) => {
+  const { email, password } = req.body;
+  const user = await AuthService.register(email, password);
+  res.json({ message: "User created", user });
+});
 export const AuthController = {
   register: async (req, res, next) => {
     try {
