@@ -1,9 +1,9 @@
 import express from "express";
-import { createTenantController } from "./controllers.tenant.js";
+import { tenantCreateController } from "./controllers.tenant.js";
 
 
 const router = express.Router();
 
-router.post('/v1/create',createTenantController);
+router.post('/v1/create',tenantCreateController);
 
 export default router;

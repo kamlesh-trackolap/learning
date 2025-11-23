@@ -1,21 +1,21 @@
 import mongoose from "mongoose";
 
 
-export interface tenantSchemaType {
+export interface tenantType {
   name: string;
   email: string;
   phone: string;
-  password: string;
   address: {
     street: string,
     city: string,
     state: string,
-    postal_code: string,
+    postalCode: string,
     country: string,
   },
 
   // Localization Settings
   localization: {
+    language:string;
     currency: string,
     currencySymbol: string,
     currencyPosition: "before" // "before" or "after"
@@ -54,7 +54,7 @@ const addressSchema = new mongoose.Schema({
     required: true,
     trim: true
   },
-  postal_code: {
+  postalCode: {
     type: String,
     required: true,
     trim: true
@@ -66,7 +66,7 @@ const addressSchema = new mongoose.Schema({
   }
 })
 
-const tenantSchema = new mongoose.Schema<tenantSchemaType>(
+const tenantSchema = new mongoose.Schema<tenantType>(
   {
     name: {
       type: String,
@@ -84,10 +84,6 @@ const tenantSchema = new mongoose.Schema<tenantSchemaType>(
       type: String,
       required: true,
       trim: true
-    },
-    password: {
-      type: String,
-      required: true
     },
     address: addressSchema,
     localization: {
@@ -160,5 +156,5 @@ const tenantSchema = new mongoose.Schema<tenantSchemaType>(
   }
 );
 
-const tenantModal = (mongoose.models.Tenant as mongoose.Model<tenantSchemaType>) || mongoose.model<tenantSchemaType>("Tenant", tenantSchema);
+const tenantModal = (mongoose.models.Tenant as mongoose.Model<tenantType>) || mongoose.model<tenantType>("Tenant", tenantSchema);
 export default tenantModal;

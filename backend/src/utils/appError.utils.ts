@@ -47,7 +47,7 @@ export class UnauthorizedError extends AppError {
 
 // 403 - Forbidden
 export class ForbiddenError extends AppError {
-  constructor(message = "Forbidden", details = null) {
+  constructor(message = "Forbidden", details = null as AppErrorOptions["details"]) {
     super(message, {
       status: 403,
       code: "FORBIDDEN",
@@ -69,7 +69,7 @@ export class NotFoundError extends AppError {
 
 // 409 - Conflict
 export class ConflictError extends AppError {
-  constructor(message = "Conflict", details = null) {
+  constructor(message = "Conflict", details = null  as AppErrorOptions["details"]) {
     super(message, {
       status: 409,
       code: "CONFLICT",
