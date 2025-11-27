@@ -10,10 +10,10 @@ const api = {
     callGet({ url, params }: urlAndParams){
         return http.get(url, { params });
     },
-    callPost({ url, params }: urlAndParams){
-         return http.post(url, { params });
+    callPost({ url, params ,data}: urlAndParams){
+         return http.post(url,data ,{ params });
     },
-    calMockApi({url}:{url:urlType}){
+    callMockApi({url}:{url:urlType}){
         return axios.get(url);
     }
 }

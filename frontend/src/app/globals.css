@@ -101,7 +101,6 @@
 
 
 @layer base {
-
   ::-webkit-scrollbar {
     width: 8px;
     height: 8px;
@@ -124,5 +123,6 @@
   * {
     scrollbar-width: thin;
     scrollbar-color: var(--base) var(--secondary);
+
   }
 }

@@ -147,8 +147,8 @@ const tenantSchema = new mongoose.Schema<tenantType>(
     status: {
       type: String,
       required: true,
-      enum: ["active", "inactive", "suspended", "pending"],
-      default: "pending"
+      enum: ["active", "inactive", "suspended"],
+      default: "inactive"
     }
   },
   {

@@ -1,11 +1,4 @@
 import nodemailer from 'nodemailer';
-
-/**
- * High-level email helper function
- * @param {Object} options - Email options
- * @param {string} options.to - Recipient email
- * @param {string} options.subject - Email subject
- */
 const sendEmail = async ({ to, subject, html,text }) => {
   // Create transporter
   const transporter = nodemailer.createTransporter({

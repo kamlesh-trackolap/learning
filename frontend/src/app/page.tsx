@@ -1,11 +1,13 @@
+import InfiniteTable from '@/components/common/dynamic-table/DynamicTable'
 import React from 'react'
 
-const Page = () => {
+const PAge = () => {
   return (
     <div>
-    Page
+      <InfiniteTable />
+      
     </div>
   )
 }
 
-export default Page;
+export default PAge

@@ -1,4 +1,5 @@
 
+"use client";
 import { isNotEmptyArray } from './common/utils/main-utils';
 import { FaPeopleArrows } from 'react-icons/fa6';
 import * as xlsx from "xlsx";
@@ -8,7 +9,7 @@ import { PiTextColumnsDuotone } from 'react-icons/pi';
 import { useState } from 'react';
 import { RiUploadCloud2Line } from 'react-icons/ri';
 import { IoMdAdd } from 'react-icons/io';
-import "../css/dynamic-table.scss"
+// import "../css/dynamic-table.scss"
 
 interface ColumsType {
     field: string,
